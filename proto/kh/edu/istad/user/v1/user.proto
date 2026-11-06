@@ -3,10 +3,23 @@ syntax = "proto3";
 package kh.edu.istad.user.v1;
 
 option java_package = "kh.edu.istad.user.v1";
+option java_outer_classname = "UserProto";
 option java_multiple_files = true;
 
 message User {
   string id = 1;
   string name = 2;
   string email = 3;
+}
+
+service UserService {
+  rpc GetUser(GetUserRequest) returns (GetUserResponse);
+}
+
+message GetUserRequest {
+  string id = 1;
+}
+
+message GetUserResponse {
+  User user = 1;
 }
