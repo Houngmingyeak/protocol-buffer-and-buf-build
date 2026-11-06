@@ -34,13 +34,13 @@ private static final long serialVersionUID = 0L;
 
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return kh.edu.istad.user.v1.UserOuterClass.internal_static_kh_edu_istad_user_v1_User_descriptor;
+    return kh.edu.istad.user.v1.UserProto.internal_static_kh_edu_istad_user_v1_User_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return kh.edu.istad.user.v1.UserOuterClass.internal_static_kh_edu_istad_user_v1_User_fieldAccessorTable
+    return kh.edu.istad.user.v1.UserProto.internal_static_kh_edu_istad_user_v1_User_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             kh.edu.istad.user.v1.User.class, kh.edu.istad.user.v1.User.Builder.class);
   }
@@ -347,13 +347,13 @@ private static final long serialVersionUID = 0L;
       kh.edu.istad.user.v1.UserOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return kh.edu.istad.user.v1.UserOuterClass.internal_static_kh_edu_istad_user_v1_User_descriptor;
+      return kh.edu.istad.user.v1.UserProto.internal_static_kh_edu_istad_user_v1_User_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return kh.edu.istad.user.v1.UserOuterClass.internal_static_kh_edu_istad_user_v1_User_fieldAccessorTable
+      return kh.edu.istad.user.v1.UserProto.internal_static_kh_edu_istad_user_v1_User_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               kh.edu.istad.user.v1.User.class, kh.edu.istad.user.v1.User.Builder.class);
     }
@@ -381,7 +381,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return kh.edu.istad.user.v1.UserOuterClass.internal_static_kh_edu_istad_user_v1_User_descriptor;
+      return kh.edu.istad.user.v1.UserProto.internal_static_kh_edu_istad_user_v1_User_descriptor;
     }
 
     @java.lang.Override

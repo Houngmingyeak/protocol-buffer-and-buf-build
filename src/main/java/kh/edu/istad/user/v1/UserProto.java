@@ -5,8 +5,8 @@
 
 package kh.edu.istad.user.v1;
 
-public final class UserOuterClass {
-  private UserOuterClass() {}
+public final class UserProto {
+  private UserProto() {}
   static {
     com.google.protobuf.RuntimeVersion.validateProtobufGencodeVersion(
       com.google.protobuf.RuntimeVersion.RuntimeDomain.PUBLIC,
@@ -14,7 +14,7 @@ public final class UserOuterClass {
       /* minor= */ 28,
       /* patch= */ 3,
       /* suffix= */ "",
-      UserOuterClass.class.getName());
+      UserProto.class.getName());
   }
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistryLite registry) {
@@ -30,6 +30,16 @@ public final class UserOuterClass {
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_kh_edu_istad_user_v1_User_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_kh_edu_istad_user_v1_GetUserRequest_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_kh_edu_istad_user_v1_GetUserRequest_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_kh_edu_istad_user_v1_GetUserResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_kh_edu_istad_user_v1_GetUserResponse_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -42,7 +52,13 @@ public final class UserOuterClass {
       "\n\037kh/edu/istad/user/v1/user.proto\022\024kh.ed" +
       "u.istad.user.v1\"@\n\004User\022\016\n\002id\030\001 \001(\tR\002id\022" +
       "\022\n\004name\030\002 \001(\tR\004name\022\024\n\005email\030\003 \001(\tR\005emai" +
-      "lB\030\n\024kh.edu.istad.user.v1P\001b\006proto3"
+      "l\" \n\016GetUserRequest\022\016\n\002id\030\001 \001(\tR\002id\"A\n\017G" +
+      "etUserResponse\022.\n\004user\030\001 \001(\0132\032.kh.edu.is" +
+      "tad.user.v1.UserR\004user2e\n\013UserService\022V\n" +
+      "\007GetUser\022$.kh.edu.istad.user.v1.GetUserR" +
+      "equest\032%.kh.edu.istad.user.v1.GetUserRes" +
+      "ponseB#\n\024kh.edu.istad.user.v1B\tUserProto" +
+      "P\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -54,6 +70,18 @@ public final class UserOuterClass {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_kh_edu_istad_user_v1_User_descriptor,
         new java.lang.String[] { "Id", "Name", "Email", });
+    internal_static_kh_edu_istad_user_v1_GetUserRequest_descriptor =
+      getDescriptor().getMessageTypes().get(1);
+    internal_static_kh_edu_istad_user_v1_GetUserRequest_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_kh_edu_istad_user_v1_GetUserRequest_descriptor,
+        new java.lang.String[] { "Id", });
+    internal_static_kh_edu_istad_user_v1_GetUserResponse_descriptor =
+      getDescriptor().getMessageTypes().get(2);
+    internal_static_kh_edu_istad_user_v1_GetUserResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_kh_edu_istad_user_v1_GetUserResponse_descriptor,
+        new java.lang.String[] { "User", });
     descriptor.resolveAllFeaturesImmutable();
   }
 

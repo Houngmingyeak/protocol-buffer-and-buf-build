@@ -18,6 +18,13 @@ repositories {
     mavenCentral()
 }
 
+sourceSets {
+    main {
+        java {
+            srcDir 'gen/java'
+        }
+    }
+}
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-webmvc'
     implementation 'org.apache.groovy:groovy'
