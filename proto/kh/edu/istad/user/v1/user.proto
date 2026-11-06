@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package kh.edu.istad.user.v1;
+
+option java_package = "kh.edu.istad.user.v1";
+option java_multiple_files = true;
+
+message User {
+  string id = 1;
+  string name = 2;
+  string email = 3;
+}
