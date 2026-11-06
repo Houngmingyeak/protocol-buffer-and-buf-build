@@ -1,6 +1,7 @@
 version: v2
 modules:
   - path: proto
+    name: buf.build/protocol-buffer-and-buf-build/istad-contracts
 lint:
   use:
     - STANDARD
