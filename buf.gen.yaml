@@ -1,4 +1,10 @@
 version: v2
-plugins:
-  - remote: buf.build/protocolbuffers/java:v28.3
-    out: src/main/java
+modules:
+  - path: proto
+    name: buf.build/houngmingyeak/protocol-buffer-and-buf-build
+lint:
+  use:
+    - STANDARD
+breaking:
+  use:
+    - FILE
